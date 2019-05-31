@@ -18,5 +18,6 @@ We make a checkbox list component in angular using material angular MatCheckbox 
 })
 export class  DBMatCheckboxListComponent {}
 ```
+<!-- more -->
 
 This is awesome 
