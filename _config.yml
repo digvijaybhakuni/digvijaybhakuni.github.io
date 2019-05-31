@@ -2,7 +2,7 @@ excerpt_separator: "<!-- more -->"
 pygments: true
 markdown: kramdown
 url: http://digvijaybhakuni.github.io
-title: DGStack
-tagline: A log of everyday life
-description: My awesome new site
+title: DigvijayB
+tagline: Code Blog
+description: Digvijay Bhakuni on topic like Angular, Java, React, HTML, CSS, Python, Typscript, Solr
 paginate: 5
