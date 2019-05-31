@@ -6,12 +6,8 @@
   <body>
 
     {% include sidebar.html %}
-
-    {% if page.thumbnail == "" or page.thumbnail == nil or page.thumbnail == blank %}
-      <div class="content container">
-    {% else %}
-      <div class="content container" style="background-image: url({{page.thumbnail}})">
-    {% endif %}
+    
+    <div class="content container">
       {{ content }}
     </div>
 
