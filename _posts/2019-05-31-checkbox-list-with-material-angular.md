@@ -124,4 +124,4 @@ export class SampleCBCListComponent implements OnInit {
 
 #### Enjoy your new checkbox list
 
-> App Url <https://angular-4hm6ja.stackblitz.io>
+> App Url @stackblitz.io <https://angular-4hm6ja.stackblitz.io>
