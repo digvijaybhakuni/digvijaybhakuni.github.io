@@ -15,8 +15,8 @@ import { Component, OnInit, Input, forwardRef } from "@angular/core";
 import { ControlValueAccessor, NG_VALUE_ACCESSOR } from '@angular/forms';
 
 @Component({  
-   selector: 'db-mat-checkbox-list'  
-   template:`   
+   selector: 'db-mat-checkbox-list',
+   template: `   
    <div [id]="dbmatcbId" class='cb-list'>
      <div class="cb-warpper" *ngFor="let opt of options; let i = index">
        <mat-checkbox [name]="opt" [value]="opt" [(ngModel)]="selectedModel[opt]" (change)="onChange($event)">{{opt}}</mat-checkbox>
@@ -92,9 +92,9 @@ import { Component, OnInit } from '@angular/core';
     selector: 'sample-cb-list',
     template: `
     <div>
-        <db-mat-checkbox-list [options]="optionslist" name="cblist" [(ngModel)]="cblist"></app-simple-checkbox-list>
+        <db-mat-checkbox-list [options]="optionslist" name="cblist" [(ngModel)]="cblist"></db-mat-checkbox-list>
     </div>
-    <div><button (click)="display()"></button></div>
+    <div><button (click)="display()">Display</button></div>
     `,
     styles: [``]
 })
@@ -107,15 +107,13 @@ export class SampleCBCListComponent implements OnInit {
     constructor() {}
 
     ngOnInit(): void {
-        optionslist = ['Apple', 'Orange', 'Grapes']
+        this.optionslist = ['Apple', 'Orange', 'Grapes']
     }
 
 
     display() {
       console.log('selected ', this.cblist);
     }
-
-
 } 
 ```
 #### Enjoy your new checkbox list
