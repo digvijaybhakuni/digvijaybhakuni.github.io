@@ -124,7 +124,7 @@ export class SampleCBCListComponent implements OnInit {
 
 #### Enjoy your new checkbox list
 
-<div class="theframe">
+<div class="theframe" sytle="height:28rem;">
   <iframe src="https://angular-4hm6ja.stackblitz.io" width="100%" height="100%"></iframe>
 </div>
 
