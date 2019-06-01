@@ -7,7 +7,9 @@ thumbnail: /images/uploads/markus-spiske-109588-unsplash.jpg
 rating: 4
 ---
 We make a checkbox list component in angular using material angular MatCheckbox component. When used as model this list will return the list selected checkbox values
+
 <!-- more -->
+
 ## Implemetation
 
 ```ts
@@ -95,6 +97,7 @@ import { Component, OnInit } from '@angular/core';
         <db-mat-checkbox-list [options]="optionslist" name="cblist" [(ngModel)]="cblist"></db-mat-checkbox-list>
     </div>
     <div><button (click)="display()">Display</button></div>
+    <div>{{cblist}}</div>
     `,
     styles: [``]
 })
@@ -116,4 +119,7 @@ export class SampleCBCListComponent implements OnInit {
     }
 } 
 ```
+
 #### Enjoy your new checkbox list
+
+> App Url <https://angular-4hm6ja.stackblitz.io>
