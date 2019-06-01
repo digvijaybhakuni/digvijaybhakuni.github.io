@@ -405,3 +405,11 @@ a.pagination-item:hover {
     border-bottom-right-radius: 4px;
   }
 }
+
+.post > p > img{
+  width: 100%;
+}
+
+.theframe{
+  height: 28rem;
+}
