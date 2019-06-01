@@ -8,6 +8,8 @@ rating: 4
 ---
 We make a checkbox list component in angular using material angular MatCheckbox component. When used as model this list will return the list selected checkbox values
 
+![Checkbox List Screenshot](/images/uploads/screenshot-2019-06-01-at-14.53.24.png "Checkbox List")
+
 <!-- more -->
 
 ## Implemetation
