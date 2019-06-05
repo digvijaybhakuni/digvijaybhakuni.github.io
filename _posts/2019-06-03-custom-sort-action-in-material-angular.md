@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Sort Date Correctly with Material Angular Table
-published: false
+published: true
 date: 2019-06-03T09:03:37.032Z
 thumbnail: /images/uploads/markus-spiske-109588-unsplash.jpg
 rating: 4
