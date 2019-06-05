@@ -11,7 +11,7 @@ We will try sort a date field which is coming as string in MM/dd/YYYY.
 > Using Default Sort for String as date
 
 ![Incorrect Sort for date material angular table ](/images/uploads/screenshot-2019-06-05-at-22.07.29.png "Incorrect Sort for date material angular table ")
-
+<!-- more -->
 ### Component code
 
 ```ts
