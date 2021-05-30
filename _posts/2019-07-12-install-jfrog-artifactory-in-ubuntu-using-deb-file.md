@@ -14,13 +14,16 @@ To download artifactory goto <https://jfrog.com/open-source/> and click on Downl
 
 If you are on shell you can use wget to get the deb file.
 
-#### To Install 
+#### To Install
+
 Open the terminal and navigate to location where you download jfrog-artifactory binary and type following command (Note: your deb file name may differ)
 
 ```sh
 $ sudo dpkg -i  jfrog-artifactory-oss-6.11.1.deb
 ```
-#### Output 
+<!-- more -->
+#### Output
+
 ```
 Selecting previously unselected package jfrog-artifactory-oss.
 (Reading database ... 84132 files and directories currently installed.)
@@ -49,19 +52,22 @@ Then check the status with:
 Processing triggers for systemd (239-7ubuntu10.14) ...
 ```
 
-#### Installation Directory 
+#### Installation Directory
+
 By Default the artifactory would be installed in `/opt/jfrog/artifactory/`
 
 #### Configation
 
 #### As Service
+
 To check the status 
+
 ```
 systemctl status artifactory.service
 ```
 
 To start the service (this may take some time)
+
 ```
 systemctl start artifactory.service
 ```
-
