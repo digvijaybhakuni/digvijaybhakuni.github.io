@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Install JFrog Artifactory in Ubuntu using deb file
-published: false
+published: true
 date: 2019-07-12T09:57:55.633Z
 thumbnail: /images/uploads/download_jfrog_artifactory_oss.png
 rating: 3
